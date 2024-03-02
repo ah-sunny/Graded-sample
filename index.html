@@ -11,16 +11,16 @@
     <!-- custom tailwine -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-               "primary-clr": '#F15444',
-               
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-clr": '#F15444',
+
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 
 </head>
 
@@ -28,54 +28,120 @@
     <header>
         <p class="text-center font-bold m-auto border-b-2 py-3">Welcome to our new website! Check back often as we add
             more cards!</p>
-    <!-- navbar -->
-<section class="w-[95%] my-3 m-auto">
-    <div class="navbar bg-base-100">
+        <!-- navbar -->
+        <section class="w-[95%] my-3 m-auto">
+            <div class="navbar bg-base-100">
 
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-circle ">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-clr" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-clr" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h7" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Homepage</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>About</a></li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-clr" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="navbar-center">
+                    <img src="//www.1stgraded.com/cdn/shop/files/1stGraded-Logo-Color-Transparent_1.png?v=1661812207&amp;width=600"
+                        alt="1st Graded"
+                        srcset="//www.1stgraded.com/cdn/shop/files/1stGraded-Logo-Color-Transparent_1.png?v=1661812207&amp;width=200 200w, //www.1stgraded.com/cdn/shop/files/1stGraded-Logo-Color-Transparent_1.png?v=1661812207&amp;width=300 300w, //www.1stgraded.com/cdn/shop/files/1stGraded-Logo-Color-Transparent_1.png?v=1661812207&amp;width=400 400w"
+                        width="200" height="56.5625" loading="eager" class="header__heading-logo motion-reduce"
+                        sizes="(max-width: 400px) 50vw, 200px">
+                </div>
+
+                <div class="navbar-end">
+                    <button class="btn btn-ghost btn-circle">
+                        <div class="indicator">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-8 h-8 text-primary-clr">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                            </svg>
+                            <span class="badge badge-xs badge-primary indicator-item"></span>
+                        </div>
+                    </button>
+                </div>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Homepage</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>About</a></li>
-            </ul>
-          </div>
-          <button class="btn btn-ghost btn-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-clr" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-          </button>
-        </div>
+        </section>
 
-        <div class="navbar-center">
-          <img src="//www.1stgraded.com/cdn/shop/files/1stGraded-Logo-Color-Transparent_1.png?v=1661812207&amp;width=600"
-        alt="1st Graded"
-        srcset="//www.1stgraded.com/cdn/shop/files/1stGraded-Logo-Color-Transparent_1.png?v=1661812207&amp;width=200 200w, //www.1stgraded.com/cdn/shop/files/1stGraded-Logo-Color-Transparent_1.png?v=1661812207&amp;width=300 300w, //www.1stgraded.com/cdn/shop/files/1stGraded-Logo-Color-Transparent_1.png?v=1661812207&amp;width=400 400w"
-        width="200" height="56.5625" loading="eager" class="header__heading-logo motion-reduce"
-        sizes="(max-width: 400px) 50vw, 200px">
-        </div>
-
-        <div class="navbar-end">
-          <button class="btn btn-ghost btn-circle">
-            <div class="indicator">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-primary-clr">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                  </svg>
-              <span class="badge badge-xs badge-primary indicator-item"></span>
-            </div>
-          </button>
-        </div>
-      </div>
-</section>
-       
 
     </header>
     <main>
+        <!-- banner -->
+        <section class="w-full relative">
+            <div class="w-full">
+                <img src="//www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=3840"
+                    class="w-[100%]" alt=""
+                    srcset="//www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=375 375w, //www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=550 550w, //www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=750 750w, //www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=1100 1100w, //www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=1500 1500w, //www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=1780 1780w, //www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=2000 2000w, //www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=3000 3000w, //www.1stgraded.com/cdn/shop/files/Untitled_5.5_x_3_in_-4_73acb920-3dae-47b6-93df-67a80ae1e9f5.png?v=1697638779&amp;width=3840 3840w"
+                    height="900" loading="lazy" sizes="100vw">
+
+            </div>
+            <div class="absolute bottom-60 left-28 p-10 w-[40%] text-left space-y-5 rounded-3xl bg-black">
+                <h1 class="text-2xl font-bold text-white">Specializing in Modern Cards</h1>
+                <p class="text-gray-400 text-base">We take pride in providing an extremely high quality product at an
+                    affordable price.</p>
+                <button class="btn text-lg px-7 text-white border-none rounded-3xl bg-primary-clr ">Shop all</button>
+            </div>
+
+        </section>
+
+        <section class="w-[80%] my-10 m-auto flex justify-between">
+            <div class="card card-compact w-[48%] bg-base-100 shadow-xl p-8 border-2 border-black">
+                <figure><img src="./image/10_1 (1).webp" alt="" /></figure>
+                <div class="card-body">
+                    <div class="card-title">
+                        <a class="flex gap-2 text-xl font-bold" href="#">
+                            <p>Card Grading</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-9">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card card-compact w-[48%] bg-base-100 shadow-xl p-8 border-2 border-black">
+                <figure><img src="./image/10.webp" alt="" /></figure>
+                <div class="card-body">
+                    <div class="card-title">
+                        <a class="flex gap-2 text-xl font-bold" href="#">
+                            <p>Card Grading</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-9">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            
+        </section>
 
     </main>
     <footer>
-       
+
     </footer>
 
 </body>
